@@ -1,0 +1,18 @@
+%%-*- mode: erlang -*-
+{application, webcore,
+ [
+  {description, "webcore"},
+  {vsn, "1"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  inets,
+                  crypto,
+                  mochiweb,
+                  webmachine
+                 ]},
+  {mod, { webcore_app, []}},
+  {env, []}
+ ]}.

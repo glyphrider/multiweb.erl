@@ -1,0 +1,12 @@
+{application, webpart,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { webpart_app, []}},
+  {env, []}
+ ]}.
